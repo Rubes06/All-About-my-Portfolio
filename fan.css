@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* border: 2px solid black; */
+    width: 20%;
+    height: 80vh;
+    margin:100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(180 deg, rgba(175, 175, 175, 0.493), rgba(128, 128, 128, 0.808)); */
+    border-radius: 10px;
+    background-color: #B1B1B1;
+    box-shadow: 0px 5px 10px 0px;
+}
+.head{
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid black;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 120px;
+}
+.blade{
+    position: absolute;
+    width: 10px;
+    height: 120px;
+    background-color: black;
+    border-radius: 5px;
+    margin: auto;
+    justify-content: center;
+    animation: rotate 0.1s linear infinite;
+    top: 140px;
+}
+
+
+@keyframes rotate {
+
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+    transform: rotate(360deg);
+    }
+}
+.stand1{
+    position: absolute;
+    background-color: gray;
+    width: 20px;
+    height: 130px;
+    top: 270px;
+    left: 668px;
+}
+.stand2{
+    position: absolute;
+    width: 40px;
+    height: 120px;
+    background-color: #4444CE;
+    border-radius: 10px;
+     top: 400px;
+    left: 660px;
+}
+.card{
+    position: absolute;
+    width: 140px;
+    height: 90px;
+    background-color: black;
+    border-radius: 5px;
+     top: 500px;
+    left: 610px;
+}
+.onbtn{
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    background-color: #4444CE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    top: 526px;
+    left: 650px;
+}
+.onbtn a{
+    text-decoration: none;
+    color: white;
+}

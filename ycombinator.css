@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+nav{
+    /* border: 2px solid red; */
+    background-color: #F5F5EE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    width: 60px;
+    /* border: 2px solid green; */
+}
+.menu-list{
+    display: flex;
+    gap: 1.5em;
+}
+.menu-list li a{
+     color:#222;
+    font-size: 18px;
+    /* font-weight: 200; */
+}
+.menu-list a:hover {
+    color: #4192D2;
+}
+.yea-r{
+    color: black;
+    font-weight: bold;
+}
+.right-side{
+    /* border: 2px solid green; */
+    display: flex;
+    gap:2em;
+    align-items: center;
+}
+.right-side p{
+    font-size: 19px;
+}
+.right-side a{
+    color: #FFFFFF;
+    background-color: #EE5D19;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.drop-down{
+    /* border: 2px solid black; */
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    position: absolute;
+    background-color:#FFFFFF;
+    display: none;
+    z-index: 2;
+}
+.drop-down li a{
+    color:#222;
+    font-size: 17px;
+    font-weight: 200;
+}
+.drop-down li{
+    margin-bottom:6px;
+    padding:4px;
+    border-radius: 5px;
+    position: relative;
+}
+.drop-down li a:hover{
+color: #222;
+background-color: #F5F5EE;
+padding: 10px;
+}
+.menu-list li:hover .drop-down{
+    display: block;
+}
+
+.hero-sect{
+    display:flex ;
+    justify-content: space-between;
+    /* padding: 20px; This caused the thing not to position */
+    background-color:#FFFFFF;
+    position: relative;
+}
+.text{
+    margin: auto;
+    padding: 20px;
+}
+.text h1{
+font-weight: bolder;
+font-size: 76px;
+color: #EE5D19;
+}
+.text p{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.logo-sect{
+    width: 550px;
+}
+
+.text a{
+    color: #FFFFFF;
+    background-color: #EE5D19;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.relate{
+    /* border: 2px solid crimson; */
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 150px;
+    left: 700px;
+}
+.rel-btn{
+    padding: 30px;
+    border: thin solid #F5F5EE;
+    border-radius: 15px;
+    background-color:#F5F5EE;
+}
+.relate h1{
+    color: #EE5D19;
+    font-weight: bold;
+    font-size: 40px;
+}
+.relate p{
+    font-size: 14px;
+}
+.rel-btn-2{
+    padding: 30px;
+    border: thin solid white;
+    border-radius: 15px;
+    background-color:#F5F5EE;
